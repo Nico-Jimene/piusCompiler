@@ -70,7 +70,7 @@ function generateMarkdown(data) {
 
   ## Table of Contents (TOC)
   1. [Description](#description)
-  2. [Installation](#install)
+  2. [Installation](#installation)
   3. [Usage](#usage)
   4. [Contributing](#contribution)
   5. [Tests](#tests)
