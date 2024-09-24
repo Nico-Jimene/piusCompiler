@@ -67,6 +67,16 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title} ${renderLicenseBadge(data.license)}
 
+
+  ## Table of Contents (TOC)
+  1. [Description](#description)
+  2. [Installation](#install)
+  3. [Usage](#usage)
+  4. [Contributing](#contribution)
+  5. [Tests](#tests)
+  6. [Questions](#questions)
+  7. [License](#license)
+
   ## Description 
   ${data.description}
 
@@ -86,7 +96,6 @@ function generateMarkdown(data) {
   GitHub Link: https://github.com/${data.github}
   Email: ${data.email}@gmail.com
  
-
   ## License   
   ${renderLicenseSection(data.license)}
 
